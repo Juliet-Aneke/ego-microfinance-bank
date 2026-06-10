@@ -1,0 +1,364 @@
+ASSIGNMENT 2 – EGO MICROFINANCE BANK WEBSITE
+
+FIRST SET OF PROMPTS — MENU SECTION	
+
+PROMPT 1
+Gemini, I’m a new software developer and I wish to build a website of a microfinance bank. Let the name be Ego Microfinance Bank. Build this for me using HTML and Tailwind CSS. Let the IDE be Visual Studio Code. Let’s build it section by section.
+Create the Logo only create a modern logo for Ego Microfinance Bank. Choose a very good theme too.
+The logo should look professional, trustworthy, modern, and attractive while using Royal Blue and White color combination. The logo should sit neatly in the top-left corner of the navigation bar with proper spacing and vertical alignment.
+
+PROMPT 2
+Build only the menu bar which will include the hero, services, about, Loan
+Application page, open an Account contact, FAQ page. Use Tailwind CSS
+classes." The sections should all be in different files as the website is
+a multi-page website. Let the menu section be sticky in each page and
+responsive on both mobile and tablet.
+
+PROMPT 3
+Set up the basic multi-page HTML website structure with a shared navigation menu and footer that appears on every page
+
+
+SECOND SET OF PROMPTS — HERO SECTION
+Prompt 4 — Create the Hero Section Layout
+Build the Hero section for Ego Microfinance Bank. Use the same Royal Blue and Gold  color theme. Include:
+•	A bold headline like 'Empowering Your Financial Future'
+•	A short subtext about accessible loans and savings for everyday Nigerians
+•	Two CTA buttons: 'Open an Account' (gold) and 'Learn More' (outlined white)
+
+Prompt 5 — Create the Hero Section Layout
+Let the hero section have a  background with a subtle pattern or gradient
+•	A hero image on the right side
+•	Make it responsive for mobile and desktop
+•	Add a smooth fade-in animation"
+
+THIRD SET OF PROMPTS — ABOUT SECTION
+Prompt 6— Create the About Section Layout
+Build the About section for Ego Microfinance Bank. Use the same Royal Blue and Gold color theme, Include:
+•	A section heading 'About Us' with a gold underline accent
+•	A two-column layout — left side has text, right side has an image or illustration
+
+Prompt 7—    Also include our mission, our vision, core values and learn more button in the About section. Let it include the following:
+•	A short paragraph about Ego Microfinance Bank being founded to empower low-income Nigerians with access to affordable financial services 
+•	Our Mission: 'To provide accessible, affordable, and reliable financial services to underserved communities' 
+•	Our Vision: 'To be the most trusted microfinance bank in Nigeria' 
+•	Four core values displayed as icon cards: Integrity, Innovation, Inclusion, Excellence 
+•	A 'Learn More' button in gold
+Prompt 8—  MAKE IT RESPONSIVE
+Include the following
+•	  Smooth scroll-in animation 
+•	  Fully responsive for mobile and desktop"
+
+FOURTH SET OF PROMPTS — SERVICES SECTION
+Prompt 9— Create the Services Section Layout
+Create a modern, professional, and visually appealing Services Section for Ego Microfinance Bank 
+Design Requirements:
+•	Use a Royal Blue and White color scheme to convey trust, security, and professionalism. 
+•	The section must be fully responsive on desktop, tablet, and mobile devices. 
+•	Include subtle hover animations and smooth transitions. 
+•	Use modern card-based layouts with rounded corners, shadows, and attractive icons. 
+•	Maintain excellent spacing, typography, and visual hierarchy
+
+Prompt 10 — Section Heading:
+Let this section have the following:
+•	Small Label: "Our Services" 
+•	Main Heading: "Financial Solutions Designed for Your Growth" 
+•	Description: "We provide reliable and accessible financial services that empower individuals, entrepreneurs, and businesses to achieve their goals."
+
+Prompt 11 — Services Card:
+Display the following services in responsive cards:
+1.	Savings Accounts 
+•	Secure savings plans with attractive interest rates. 
+2.	Personal Loans 
+•	Fast and flexible loans for personal financial needs. 
+3.	Business Loans 
+•	Funding solutions for SMEs and growing businesses. 
+4.	Micro Loans 
+Small-scale loans designed for entrepreneurs and traders. 
+5.	Fixed Deposits 
+•	Investment opportunities with competitive returns. 
+6.	Mobile Banking 
+•	Convenient banking services accessible anytime and anywhere.
+
+Prompt 12 — Technical Requirements:
+•	Ensure accessibility and clean code organization. 
+•	Optimize for performance and responsiveness. 
+•	Produce production-quality code suitable for a modern banking website.
+
+FIFTH SET OF PROMPTS — LOAN APPLICATION SECTION
+Prompt 13 — 
+Create a modern, professional, secure, and fully responsive Loan Application Page for Ego Microfinance Bank using HTML and Tailwind CSS.
+The design should inspire trust, credibility, and financial confidence while maintaining a clean and user-friendly interface.
+Design Requirements
+•	Use a Royal Blue and White color scheme as the primary brand colors.
+•	Incorporate subtle shadows, rounded corners, modern typography, and smooth hover effects.
+•	Ensure the page is fully responsive on desktop, tablet, and mobile devices.
+•	Use a professional banking-style layout with excellent spacing and visual hierarchy.
+•	Include appropriate financial-themed icons where necessary.
+
+Prompt 14 — Hero Section
+Let the hero section have the following:
+•	Small Label: Loan Services
+•	Main Heading: Apply for a Loan with Ease
+•	Supporting Text:
+"Get fast, flexible, and affordable financing solutions designed to help you achieve your personal and business goals."
+•	Call-to-Action Button:
+Apply Now
+Contact Loan Officer
+
+Prompt 15 — Loan categories Section
+Display attractive cards for:
+1.	Personal Loan
+2.	Business Loan
+3.	SME Loan
+4.	Salary Advance Loan
+5.	Agricultural Loan
+6.	Asset Acquisition Loan
+Each card should contain:
+•	Icon
+•	Loan Name
+•	Brief Description
+•	Loan Features
+•	Learn More Button
+
+Prompt 16 — Loan Benefits Section
+Build this too right under the categories section
+•	Fast Approval Process
+•	Competitive Interest Rates
+•	Flexible Repayment Plans
+•	Minimal Documentation
+•	Dedicated Customer Support
+•	Secure Application Process
+
+Prompt 17 — Loan Application Form
+
+Create a professional multi-field application form containing:
+Personal Information
+•	Full Name
+•	Date of Birth
+•	Gender
+•	Marital Status
+•	Phone Number
+•	Email Address
+•	Residential Address
+Employment / Business Information
+•	Employment Status
+•	Employer Name
+•	Monthly Income
+•	Business Name
+•	Business Type
+•	Years in Business
+Loan Details
+•	Loan Type
+•	Loan Amount
+•	Loan Purpose
+•	Preferred Repayment Period
+•	Additional Comments
+Document Upload Section
+•	Upload ID Card
+•	Upload Passport Photograph
+•	Upload Utility Bill
+•	Upload Supporting Documents
+Consent Section
+Include:
+•	Checkbox for agreement to terms and conditions.
+•	Checkbox for consent to credit verification.
+Form Buttons
+•	Submit Application
+•	Save for Later
+•	Reset Form
+
+Prompt 18 — make the section fully responsive on tablet and mobile
+SIXTH SET OF PROMPTS — OPEN ACCOUNT SECTION
+Prompt 19 — Hero Section
+Include:
+•	Small Label: Open an Account 
+•	Main Heading: Start Your Banking Journey with Ego Microfinance Bank 
+•	Supporting Text:
+"Open an account in minutes and enjoy secure, convenient, and reliable financial services designed to help you grow."
+•	Primary Button: Open Account Now 
+•	Secondary Button: Contact Us 
+
+Prompt 20 — Account Types Section 
+Right under the hero section, display attractive cards for:
+Savings Account
+•	Safe and secure savings. 
+•	Competitive interest rates. 
+•	Easy deposits and withdrawals. 
+Current Account
+•	Suitable for businesses and professionals. 
+•	Unlimited transactions. 
+•	Secure account management. 
+Fixed Deposit Account
+•	Higher returns on investments. 
+•	Flexible investment periods. 
+•	Guaranteed security. 
+Student Account
+•	Designed for students and young savers. 
+•	Low opening balance requirement. 
+•	Financial literacy benefits. 
+SME Business Account
+•	Tailored for entrepreneurs and small businesses. 
+•	Easy access to business financing. 
+•	Convenient transaction management. 
+Each card should include:
+•	Modern SVG icon. 
+•	Account title. 
+•	Brief description. 
+•	Key benefits. 
+•	"Open Account" button. 
+
+Prompt 21 ------Account Opening Requirements Section
+Present requirements in a professional checklist format right under the Account type section:
+•	Valid Means of Identification 
+•	Recent Passport Photograph 
+•	Utility Bill or Proof of Address 
+•	Bank Verification Number (BVN) 
+•	National Identification Number (NIN) 
+•	Phone Number 
+•	Email Address
+
+
+Prompt 22 — Account Opening Form
+Create a comprehensive and professional account registration form right under the account opening requirement. Let it have the details below:
+Personal Information
+•	First Name 
+•	Middle Name 
+•	Last Name 
+•	Date of Birth 
+•	Gender 
+•	Marital Status 
+•	Nationality 
+Contact Information
+•	Phone Number 
+•	Alternative Phone Number 
+•	Email Address 
+•	Residential Address 
+•	City 
+•	State 
+•	Country 
+Identification Information
+•	BVN 
+•	NIN 
+•	Means of Identification Type 
+•	ID Number 
+Employment Information
+•	Employment Status 
+•	Occupation 
+•	Employer Name 
+•	Monthly Income Range 
+Account Details
+•	Account Type 
+•	Preferred Branch 
+•	Preferred Communication Method 
+•	Initial Deposit Amount 
+Next of Kin Information
+•	Full Name 
+•	Relationship 
+•	Phone Number 
+•	Address 
+Prompt 23 — Document Upload Section
+Under the account opening form, include upload fields for:
+•	Passport Photograph 
+•	Valid ID Card 
+•	Utility Bill 
+•	Signature Upload 
+
+
+SEVENTH SET OF PROMPTS — CONTACT SECTION
+
+Prompt 24 — Hero Section
+Right under the open account section, build me the hero section. Let it include the following:
+Heading:
+"Get in Touch With Us"
+Subheading:
+"We are here to assist you with your banking needs. Reach out to our customer service team anytime."
+Call-to-Action Buttons:
+•	Call Us 
+•	Send Message 
+Include:
+•	Banking-themed illustration or image. 
+•	Responsive two-column layout. 
+
+Prompt 25 —  Contact Information Section
+Display contact details in attractive cards right under the hero section of the contact .
+Head Office
+•	Address:
+"123 Independence Avenue, Enugu, Nigeria" 
+Phone Numbers
+•	+234 800 123 4567 
+•	+234 800 765 4321 
+Email
+•	info@egomfb.com 
+•	support@egomfb.com 
+Business Hours
+•	Monday – Friday: 8:00 AM – 5:00 PM 
+•	Saturday: 9:00 AM – 1:00 PM 
+•	Sunday: Closed 
+Each card should have:
+Professional icon, hover animation, soft shadow, Rounded corners 
+
+Prompt 26 — Contact Form Section
+Create a professional banking contact form right under the contact information section.	
+Fields
+•	Full Name 
+•	Email Address 
+•	Phone Number 
+•	Subject 
+•	Message 
+Dropdown Inquiry Type
+Options:
+•	General Inquiry 
+•	Account Opening 
+•	Loan Application 
+•	Savings Account 
+•	Complaints 
+•	Customer Support 
+•	Other 
+Button
+"Send Message"
+
+Prompt 27 —Branch Locations Section
+Display branch cards right under the contact form.
+Example Branches
+Enugu Branch
+•	12 Ogui Road, Enugu 
+Nsukka Branch
+•	45 University Road, Nsukka 
+Awgu Branch
+•	8 Market Square, Awgu 
+Each card should include:
+•	Branch image 
+•	Address 
+•	Phone Number 
+•	View Details button 
+
+Prompt 28 —Interactive Google Map
+Embed Google Maps showing:
+•	Head Office Location 
+Features:
+•	Responsive iframe 
+•	Rounded corners 
+•	Shadow effect 
+
+Prompt 29— Frequently Asked Questions
+Create an accordion FAQ section.
+Sample Questions:
+1.	How do I open an account? 
+2.	What documents are required for loan applications? 
+3.	How long does loan approval take? 
+4.	What are your banking hours? 
+5.	How can I contact customer support? 
+Accordion should:
+•	Expand and collapse smoothly 
+•	Mobile-friendly 
+
+Prompt 30— Customer Support Banner
+Include a highlighted support section.
+Heading:
+"Need Immediate Assistance?"
+Text:
+"Our customer support team is available to answer your questions and guide you through our banking services."
+Buttons:
+•	Call Support 
+•	Email Support 
+

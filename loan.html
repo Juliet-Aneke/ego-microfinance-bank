@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan - Ego Microfinance Bank</title>
+    <!-- Tailwind CSS Engine -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+    <link rel="stylesheet" href="./components/navbar.html">
+    <link rel="stylesheet" href="./components/footer.html">
+</head>
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+
+    <!-- Shared Navigation Menu Injection Target -->
+    <div id="navbar-placeholder"></div>
+    <!-- =========================================================================
+     EGO MICROFINANCE BANK — HERO & INTEGRATED PRODUCT MATRIX
+     Color Palette: Royal Blue (#002366), Accent Amber Gold (#D4AF37)
+     ========================================================================= -->
+<main class="min-h-screen bg-blue-950 text-gray-800 font-sans">
+
+    <!-- SECTION 1: HERO CONTAINER INTERFACE -->
+    <section id="loan-hero" class="relative bg-[#002366] text-white py-20 sm:py-24 lg:py-32 overflow-hidden">
+        <!-- Structural background grid alignment matrix -->
+        <div class="absolute inset-0 opacity-5 pointer-events-none" aria-hidden="true">
+            <div class="absolute inset-0" style="background-image: linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px); background-size: 4rem 4rem;"></div>
+        </div>
+        
+        <!-- Decorative subtle background glow -->
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" aria-hidden="true"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- HERO TEXT BLOCK (Spans 7 Columns) -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left max-w-2xl mx-auto lg:mx-0">
+                    <div class="inline-flex items-center bg-white/10 px-3 py-1.5 rounded-full border border-white/10">
+                        <span class="text-xs font-bold uppercase tracking-widest text-blue-200">
+                            Loan Services
+                        </span>
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight sm:leading-none">
+                        Apply for a Loan <span class="text-blue-200 block sm:inline">with Ease</span>
+                    </h1>
+                    
+                    <p class="text-blue-100/90 text-base sm:text-lg lg:text-xl leading-relaxed max-w-xl mx-auto lg:mx-0">
+                        Get fast, flexible, and affordable financing solutions designed to help you achieve your personal and business goals.
+                    </p>
+                    
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#loan-products" class="w-full sm:w-auto text-center bg-white text-[#002366] font-bold px-8 py-4 rounded-xl shadow-xl hover:bg-blue-50 transition-all duration-200 transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#002366] focus:ring-white">
+                            Apply Now
+                        </a>
+                        <a href="contact.html" class="w-full sm:w-auto text-center bg-transparent text-white font-bold px-8 py-4 rounded-xl border-2 border-white/30 hover:bg-white/10 hover:border-white transition-all duration-200 transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#002366] focus:ring-white">
+                            Contact Loan Officer
+                        </a>
+                    </div>
+                </div>
+
+                <!-- HERO GRAPHIC OVERLAY SLOT (Spans 5 Columns) -->
+                <div class="hidden lg:block lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-blue-600 to-blue-400 rounded-2xl transform rotate-3 scale-102 opacity-20 blur-sm" aria-hidden="true"></div>
+                        <div class="relative bg-white/5 border border-white/10 p-2 rounded-2xl shadow-2xl backdrop-blur-sm aspect-[4/3] flex items-center justify-center overflow-hidden group">
+                            <div class="w-full h-full rounded-xl bg-gradient-to-br from-slate-900/40 to-slate-800/80 p-6 flex flex-col justify-between relative border border-white/5">
+                                <div class="space-y-2">
+                                    <div class="w-12 h-2 bg-white/20 rounded-full"></div>
+                                    <div class="w-24 h-3 bg-white/40 rounded-full"></div>
+                                </div>
+                                <div class="w-full h-24 flex items-end gap-2 pt-4">
+                                    <div class="w-full bg-white/20 h-[40%] rounded-t-md group-hover:bg-blue-400/40 transition-all duration-500"></div>
+                                    <div class="w-full bg-white/20 h-[65%] rounded-t-md group-hover:bg-blue-400/60 transition-all duration-500 delay-75"></div>
+                                    <div class="w-full bg-white/40 h-[50%] rounded-t-md group-hover:bg-blue-300 transition-all duration-500 delay-100"></div>
+                                    <div class="w-full bg-white/20 h-[85%] rounded-t-md group-hover:bg-blue-400/80 transition-all duration-500 delay-150"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION 2: INTEGRATED LOAN CATEGORIES MATRIX -->
+    <section id="loan-products" class="py-20 sm:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-12">
+        
+        <!-- SECTION LINKED HEADER -->
+        <header class="text-center max-w-3xl mx-auto mb-16 sm:mb-20 space-y-4">
+            <div class="inline-flex items-center bg-[#002366]/5 px-3 py-1.5 rounded-full border border-[#002366]/10">
+                <span class="text-xs font-bold uppercase tracking-wider text-[#002366]">Our Offerings</span>
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#002366]">
+                Tailored Financing for Every Milestone
+            </h2>
+            <p class="text-gray-500 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+                Explore our diversified credit lines optimized for immediate liquidity, commercial scalability, and individual growth assets.
+            </p>
+        </header>
+
+        <!-- CARDS RESPONSIVE GRID MATRIX -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- CARD 1: PERSONAL LOAN -->
+            <article class="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:border-[#002366]/20 transition-all duration-300 transform hover:-translate-y-1.5 group flex flex-col justify-between">
+                <div class="space-y-5">
+                    <div class="w-12 h-12 bg-[#002366]/5 rounded-xl text-[#002366] group-hover:bg-[#002366] group-hover:text-white flex items-center justify-center transition-all duration-300" aria-hidden="true">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                        </svg>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-[#002366]">Personal Loan</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">
+                            Fast, private funding to cover emergency obligations, medical procedures, or sudden individual financial requirements.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-100 space-y-2.5">
+                        <span class="block text-[10px] font-extrabold uppercase tracking-wider text-gray-400">Key Features</span>
+                        <ul class="space-y-2 text-xs text-gray-600">
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>No collateral constraints</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Flexible terms up to 24 months</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Disbursal within 24 hours</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt-6 mt-6 border-t border-gray-50">
+                    <a href="personal-loans.html" class="w-full inline-flex items-center justify-center space-x-2 bg-gray-50 text-sm font-bold text-[#002366] py-3 rounded-xl group-hover:bg-[#002366] group-hover:text-white transition-all duration-350" aria-label="Learn more about Personal Loans">
+                        <span>Learn More</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 2: BUSINESS LOAN -->
+            <article class="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:border-[#002366]/20 transition-all duration-300 transform hover:-translate-y-1.5 group flex flex-col justify-between">
+                <div class="space-y-5">
+                    <div class="w-12 h-12 bg-[#002366]/5 rounded-xl text-[#002366] group-hover:bg-[#002366] group-hover:text-white flex items-center justify-center transition-all duration-300" aria-hidden="true">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-[#002366]">Business Loan</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">
+                            Substantial working capital injects designed for corporate scaling, inventory optimization, and structural upgrades.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-100 space-y-2.5">
+                        <span class="block text-[10px] font-extrabold uppercase tracking-wider text-gray-400">Key Features</span>
+                        <ul class="space-y-2 text-xs text-gray-600">
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>High maximum capital limits</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Customized seasonal tranches</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Competitive interest models</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt-6 mt-6 border-t border-gray-50">
+                    <a href="business-loans.html" class="w-full inline-flex items-center justify-center space-x-2 bg-gray-50 text-sm font-bold text-[#002366] py-3 rounded-xl group-hover:bg-[#002366] group-hover:text-white transition-all duration-350" aria-label="Learn more about Business Loans">
+                        <span>Learn More</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 3: SME LOAN -->
+            <article class="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:border-[#002366]/20 transition-all duration-300 transform hover:-translate-y-1.5 group flex flex-col justify-between">
+                <div class="space-y-5">
+                    <div class="w-12 h-12 bg-[#002366]/5 rounded-xl text-[#002366] group-hover:bg-[#002366] group-hover:text-white flex items-center justify-center transition-all duration-300" aria-hidden="true">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-[#002366]">SME Loan</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">
+                            Specially provisioned financing packages targeting small-to-medium enterprise setups and emerging neighborhood shops.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-100 space-y-2.5">
+                        <span class="block text-[10px] font-extrabold uppercase tracking-wider text-gray-400">Key Features</span>
+                        <ul class="space-y-2 text-xs text-gray-600">
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Streamlined advisory support</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Minimal compliance friction</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Structured repayment pathways</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt-6 mt-6 border-t border-gray-50">
+                    <a href="sme-loans.html" class="w-full inline-flex items-center justify-center space-x-2 bg-gray-50 text-sm font-bold text-[#002366] py-3 rounded-xl group-hover:bg-[#002366] group-hover:text-white transition-all duration-350" aria-label="Learn more about SME Loans">
+                        <span>Learn More</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 4: SALARY ADVANCE LOAN -->
+            <article class="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:border-[#002366]/20 transition-all duration-300 transform hover:-translate-y-1.5 group flex flex-col justify-between">
+                <div class="space-y-5">
+                    <div class="w-12 h-12 bg-[#002366]/5 rounded-xl text-[#002366] group-hover:bg-[#002366] group-hover:text-white flex items-center justify-center transition-all duration-300" aria-hidden="true">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-[#002366]">Salary Advance Loan</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">
+                            Bridge monthly budgetary shortfalls with instant access to your earned salary before pay-day occurs.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-100 space-y-2.5">
+                        <span class="block text-[10px] font-extrabold uppercase tracking-wider text-gray-400">Key Features</span>
+                        <ul class="space-y-2 text-xs text-gray-600">
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Automated direct deduction</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Zero document submittal</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Instant automated credit execution</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt-6 mt-6 border-t border-gray-50">
+                    <a href="salary-advance.html" class="w-full inline-flex items-center justify-center space-x-2 bg-gray-50 text-sm font-bold text-[#002366] py-3 rounded-xl group-hover:bg-[#002366] group-hover:text-white transition-all duration-350" aria-label="Learn more about Salary Advance Loans">
+                        <span>Learn More</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 5: AGRICULTURAL LOAN -->
+            <article class="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:border-[#002366]/20 transition-all duration-300 transform hover:-translate-y-1.5 group flex flex-col justify-between">
+                <div class="space-y-5">
+                    <div class="w-12 h-12 bg-[#002366]/5 rounded-xl text-[#002366] group-hover:bg-[#002366] group-hover:text-white flex items-center justify-center transition-all duration-300" aria-hidden="true">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2h2a2.5 2.5 0 002.5-2.5V8a2 2 0 00-2-2h-.5A2.5 2.5 0 0114 3.5v-.575m8.53 4.66a9 9 0 11-18.3 0l1.15-.384a9 9 0 0116.1 0z"/>
+                        </svg>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-[#002366]">Agricultural Loan</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">
+                            Financing structures customized around natural harvest, feed procurement, and large-scale farming machinery operations.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-100 space-y-2.5">
+                        <span class="block text-[10px] font-extrabold uppercase tracking-wider text-gray-400">Key Features</span>
+                        <ul class="space-y-2 text-xs text-gray-600">
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Harvest-aligned repayment structures</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Highly subsidized asset baselines</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Expert crop insurance access</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt-6 mt-6 border-t border-gray-50">
+                    <a href="agricultural-loans.html" class="w-full inline-flex items-center justify-center space-x-2 bg-gray-50 text-sm font-bold text-[#002366] py-3 rounded-xl group-hover:bg-[#002366] group-hover:text-white transition-all duration-350" aria-label="Learn more about Agricultural Loans">
+                        <span>Learn More</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 6: ASSET ACQUISITION LOAN -->
+            <article class="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:border-[#002366]/20 transition-all duration-300 transform hover:-translate-y-1.5 group flex flex-col justify-between">
+                <div class="space-y-5">
+                    <div class="w-12 h-12 bg-[#002366]/5 rounded-xl text-[#002366] group-hover:bg-[#002366] group-hover:text-white flex items-center justify-center transition-all duration-300" aria-hidden="true">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                        </svg>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-bold text-[#002366]">Asset Acquisition Loan</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">
+                            Acquire operational machinery, company heavy vehicles, or backup power installations smoothly with low upfront deposits.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-100 space-y-2.5">
+                        <span class="block text-[10px] font-extrabold uppercase tracking-wider text-gray-400">Key Features</span>
+                        <ul class="space-y-2 text-xs text-gray-600">
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Low upfront down payment criteria</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>The asset acts directly as collateral</span></li>
+                            <li class="flex items-center space-x-2"><span class="w-1.5 h-1.5 bg-[#002366] rounded-full"></span> <span>Flexible vendor partnership terms</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pt-6 mt-6 border-t border-gray-50">
+                    <a href="asset-acquisition.html" class="w-full inline-flex items-center justify-center space-x-2 bg-gray-50 text-sm font-bold text-[#002366] py-3 rounded-xl group-hover:bg-[#002366] group-hover:text-white transition-all duration-350" aria-label="Learn more about Asset Acquisition Loans">
+                        <span>Learn More</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Loan Benefits Section -->
+<section class="py-16 dark:bg-gray-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Section Header -->
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl tracking-tight">
+        Why Choose Our Financial Solutions?
+      </h2>
+      <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">
+        We simplify borrowing with transparent terms, fast processing, and dedicated support every step of the way.
+      </p>
+    </div>
+
+    <!-- Benefits Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Benefit 1: Fast Approval Process -->
+      <div class="group bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900/50 rounded-xl flex items-center justify-center text-blue-600 dark:text-blue-400 mb-6 group-hover:scale-110 transition-transform duration-300">
+          <!-- Lightning/Fast Icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+          Fast Approval Process
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+          Skip the long waits. Our streamlined digital evaluation means you get feedback and funding in record time.
+        </p>
+      </div>
+
+      <!-- Benefit 2: Competitive Interest Rates -->
+      <div class="group bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-12 h-12 bg-green-100 dark:bg-green-900/50 rounded-xl flex items-center justify-center text-green-600 dark:text-green-400 mb-6 group-hover:scale-110 transition-transform duration-300">
+          <!-- Percentage/Rate Icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+          Competitive Interest Rates
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+          Keep your borrowing costs low with some of the best market rates available, tailored perfectly to your budget.
+        </p>
+      </div>
+
+      <!-- Benefit 3: Flexible Repayment Plans -->
+      <div class="group bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-xl flex items-center justify-center text-purple-600 dark:text-purple-400 mb-6 group-hover:scale-110 transition-transform duration-300">
+          <!-- Calendar/Flexibility Icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+          Flexible Repayment Plans
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+          Choose a repayment schedule that aligns with your cash flow, offering adjustable terms to reduce financial strain.
+        </p>
+      </div>
+
+      <!-- Benefit 4: Minimal Documentation -->
+      <div class="group bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-xl flex items-center justify-center text-amber-600 dark:text-amber-400 mb-6 group-hover:scale-110 transition-transform duration-300">
+          <!-- Document Icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+          Minimal Documentation
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+          Say goodbye to exhausting paperwork. Upload a few core details online and let our system handle the heavy lifting.
+        </p>
+      </div>
+
+      <!-- Benefit 5: Dedicated Customer Support -->
+      <div class="group bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-12 h-12 bg-pink-100 dark:bg-pink-900/50 rounded-xl flex items-center justify-center text-pink-600 dark:text-pink-400 mb-6 group-hover:scale-110 transition-transform duration-300">
+          <!-- Customer Support/Heart Icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+          Dedicated Customer Support
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+          Our finance specialists are available around the clock to guide you through queries and offer expert assistance.
+        </p>
+      </div>
+
+      <!-- Benefit 6: Secure Application Process -->
+      <div class="group bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-12 h-12 bg-teal-100 dark:bg-teal-900/50 rounded-xl flex items-center justify-center text-teal-600 dark:text-teal-400 mb-6 group-hover:scale-110 transition-transform duration-300">
+          <!-- Shield/Security Icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+          Secure Application Process
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+          Your privacy is non-negotiable. We protect your application data using advanced bank-grade data encryption layers.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- 2. LOAN APPLICATION FORM SECTION           -->
+<!-- ========================================== -->
+<section class="min-h-screen dark:bg-gray-950 py-16 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-4xl mx-auto">
+    
+    <!-- Form Header -->
+    <div class="mb-12 border-b border-gray-200 dark:border-gray-800 pb-6 text-center sm:text-left">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white tracking-tight">Loan Application Form</h2>
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Please provide accurate and verifiable information to ensure a seamless verification and approval process.</p>
+    </div>
+
+    <form id="loanApplicationForm" class="space-y-8" onsubmit="event.preventDefault();">
+      
+      <!-- Card 1: Personal Information -->
+      <div class="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 dark:border-gray-800 space-y-6">
+        <div class="flex items-center space-x-3 border-b border-gray-100 dark:border-gray-800 pb-4">
+          <div class="p-2 bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-lg">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Personal Information</h3>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="sm:col-span-2">
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Full Name</label>
+            <input type="text" required placeholder="John Doe" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Date of Birth</label>
+            <input type="date" required class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Gender</label>
+            <select required class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+              <option value="" disabled selected>Select gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other / Prefer not to say</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Marital Status</label>
+            <select required class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+              <option value="" disabled selected>Select status</option>
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+              <option value="divorced">Divorced</option>
+              <option value="widowed">Widowed</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Phone Number</label>
+            <input type="tel" required placeholder="+1 (555) 000-0000" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div class="sm:col-span-2">
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email Address</label>
+            <input type="email" required placeholder="you@example.com" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div class="sm:col-span-2">
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Residential Address</label>
+            <textarea required rows="2" placeholder="Street address, City, State, ZIP code" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all resize-none"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Employment / Business Information -->
+      <div class="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 dark:border-gray-800 space-y-6">
+        <div class="flex items-center space-x-3 border-b border-gray-100 dark:border-gray-800 pb-4">
+          <div class="p-2 bg-emerald-50 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 rounded-lg">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Employment & Business Details</h3>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Employment Status</label>
+            <select required class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+              <option value="" disabled selected>Select status</option>
+              <option value="employed">Employed (Full-Time / Part-Time)</option>
+              <option value="self-employed">Self-Employed / Business Owner</option>
+              <option value="unemployed">Unemployed</option>
+              <option value="retired">Retired</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Monthly Income ($)</label>
+            <input type="number" min="0" placeholder="e.g. 5000" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Employer Name <span class="text-xs text-gray-400 font-normal">(If Employed)</span></label>
+            <input type="text" placeholder="Company Inc." class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Business Name <span class="text-xs text-gray-400 font-normal">(If Applicable)</span></label>
+            <input type="text" placeholder="Your Business LLC" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Business Type</label>
+            <input type="text" placeholder="e.g. Retail, Tech, Logistics" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Years in Business</label>
+            <input type="number" min="0" placeholder="e.g. 3" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Loan Details -->
+      <div class="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 dark:border-gray-800 space-y-6">
+        <div class="flex items-center space-x-3 border-b border-gray-100 dark:border-gray-800 pb-4">
+          <div class="p-2 bg-purple-50 dark:bg-purple-950 text-purple-600 dark:text-purple-400 rounded-lg">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Loan Requests & Requirements</h3>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Loan Type</label>
+            <select required class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+              <option value="" disabled selected>Select loan type</option>
+              <option value="personal">Personal Loan</option>
+              <option value="business">Business Expansion Loan</option>
+              <option value="mortgage">Home / Mortgage Loan</option>
+              <option value="auto">Vehicle / Auto Loan</option>
+              <option value="education">Education Loan</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Desired Loan Amount ($)</label>
+            <input type="number" required min="1" placeholder="e.g. 25000" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Preferred Repayment Period</label>
+            <select required class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+              <option value="" disabled selected>Select duration</option>
+              <option value="12m">12 Months (1 Year)</option>
+              <option value="24m">24 Months (2 Years)</option>
+              <option value="36m">36 Months (3 Years)</option>
+              <option value="48m">48 Months (4 Years)</option>
+              <option value="60m">60 Months (5 Years)</option>
+            </select>
+          </div>
+
+          <div class="sm:col-span-2">
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Loan Purpose</label>
+            <input type="text" required placeholder="e.g. Equipment purchase, home renovation" class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all">
+          </div>
+
+          <div class="sm:col-span-2">
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Additional Comments <span class="text-xs text-gray-400 font-normal">(Optional)</span></label>
+            <textarea rows="3" placeholder="Provide any context that might support your application..." class="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 bg-transparent text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all resize-none"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: Document Upload Section -->
+      <div class="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 dark:border-gray-800 space-y-6">
+        <div class="flex items-center space-x-3 border-b border-gray-100 dark:border-gray-800 pb-4">
+          <div class="p-2 bg-amber-50 dark:bg-amber-950 text-amber-600 dark:text-amber-400 rounded-lg">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Document Uploads</h3>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <!-- ID Card -->
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Upload ID Card (Driver's License / Passport)</label>
+            <label class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-700 rounded-xl p-4 hover:border-blue-500 dark:hover:border-blue-500 cursor-pointer transition-colors bg-gray-50/50 dark:bg-gray-800/20">
+              <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="mt-1 text-xs text-gray-500 dark:text-gray-400">Choose file or drag here</span>
+              <input type="file" required class="hidden">
+            </label>
+          </div>
+
+          <!-- Passport Photograph -->
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Upload Passport Photograph</label>
+            <label class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-700 rounded-xl p-4 hover:border-blue-500 dark:hover:border-blue-500 cursor-pointer transition-colors bg-gray-50/50 dark:bg-gray-800/20">
+              <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="mt-1 text-xs text-gray-500 dark:text-gray-400">Choose file or drag here</span>
+              <input type="file" required class="hidden">
+            </label>
+          </div>
+
+          <!-- Utility Bill -->
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Upload Utility Bill <span class="text-xs text-gray-400 font-normal">(Proof of residence)</span></label>
+            <label class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-700 rounded-xl p-4 hover:border-blue-500 dark:hover:border-blue-500 cursor-pointer transition-colors bg-gray-50/50 dark:bg-gray-800/20">
+              <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="mt-1 text-xs text-gray-500 dark:text-gray-400">Choose file or drag here</span>
+              <input type="file" required class="hidden">
+            </label>
+          </div>
+
+          <!-- Supporting Documents -->
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Upload Supporting Documents <span class="text-xs text-gray-400 font-normal">(Payslips, business registries)</span></label>
+            <label class="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-700 rounded-xl p-4 hover:border-blue-500 dark:hover:border-blue-500 cursor-pointer transition-colors bg-gray-50/50 dark:bg-gray-800/20">
+              <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="mt-1 text-xs text-gray-500 dark:text-gray-400">Choose file or drag here</span>
+              <input type="file" class="hidden">
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5: Legal Consent Section -->
+      <div class="bg-gray-100/60 dark:bg-gray-900/40 border border-gray-200 dark:border-gray-800 rounded-2xl p-6 space-y-4">
+        <div class="flex items-start">
+          <div class="flex items-center h-5">
+            <input id="termsAgreement" type="checkbox" required class="w-4 h-4 rounded text-blue-600 border-gray-300 dark:border-gray-700 focus:ring-blue-500 bg-white dark:bg-gray-900">
+          </div>
+          <div class="ml-3 text-sm">
+            <label for="termsAgreement" class="font-medium text-gray-900 dark:text-gray-200">Agreement to Terms and Conditions</label>
+            <p class="text-gray-500 dark:text-gray-400 text-xs">I certify that all information submitted here is complete, authentic, and accurate to the best of my knowledge.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start">
+          <div class="flex items-center h-5">
+            <input id="creditConsent" type="checkbox" required class="w-4 h-4 rounded text-blue-600 border-gray-300 dark:border-gray-700 focus:ring-blue-500 bg-white dark:bg-gray-900">
+          </div>
+          <div class="ml-3 text-sm">
+            <label for="creditConsent" class="font-medium text-gray-900 dark:text-gray-200">Consent to Credit Verification</label>
+            <p class="text-gray-500 dark:text-gray-400 text-xs">I authorize the financial institution to run background checks and verify credit history checks with registered credit bureaus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6: Form Actions / Buttons -->
+      <div class="flex flex-col sm:flex-row-reverse gap-4 pt-4 border-t border-gray-200 dark:border-gray-800">
+        <button type="submit" class="w-full sm:w-auto px-6 py-3 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl transition-colors shadow-sm focus:ring-4 focus:ring-blue-500/20 outline-none">
+          Submit Application
+        </button>
+        <button type="button" class="w-full sm:w-auto px-6 py-3 text-sm font-semibold text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-xl transition-colors outline-none">
+          Save for Later
+        </button>
+        <button type="reset" class="w-full sm:w-auto px-6 py-3 text-sm font-semibold text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 rounded-xl transition-colors outline-none sm:mr-auto">
+          Reset Form
+        </button>
+      </div>
+
+    </form>
+  </div>
+</section>
+
+</main>
+
+
+    <!-- Shared Footer Injection Target -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ================= LAYOUT MANAGER SCRIPT ================= -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // 1. Fetch and inject the Shared Navigation Bar
+            fetch('components/navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                    setupMobileMenu(); // Activate mobile drop-toggle once loaded
+                });
+
+            // 2. Fetch and inject the Shared Footer
+            fetch('components/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                });
+
+            // Mobile menu event execution engine
+            function setupMobileMenu() {
+                const btn = document.getElementById('menu-toggle-button');
+                const drawer = document.getElementById('mobile-drawer');
+                if (btn && drawer) {
+                    btn.addEventListener('click', () => {
+                        drawer.classList.toggle('hidden');
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>

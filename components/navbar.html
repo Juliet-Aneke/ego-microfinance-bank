@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="sticky top-0 z-50 bg-blue-300/50 backdrop-blur-md shadow-sm border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+            <!-- Logo Module -->
+            <a href="index.html" class="flex items-center space-x-3 group">
+                <div class="flex-">
+                    <svg class="h-10 w-10 text-[#002366] transform group-hover:scale-105 transition-transform duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col leading-tight">
+                    <span class="text-2xl font-bold tracking-tight text-[#002366]">EGO</span>
+                    <span class="text-[10px] font-semibold tracking-[0.2em] text-gray-500 uppercase">Microfinance Bank</span>
+                </div>
+            </a>
+
+            <!-- Desktop Links -->
+            <nav class="hidden lg:flex space-x-8 text-sm font-semibold text-gray-600">
+                <a href="index.html" class="hover:text-[#002366] transition pb-1">Home</a>
+                <a href="about.html" class="hover:text-[#002366] transition pb-1">About</a>
+                <a href="services.html" class="hover:text-[#002366] transition pb-1">Services</a>
+                <a href="loan.html" class="hover:text-[#002366] transition pb-1">Loan Application</a>
+                <a href="open-account.html" class="hover:text-[#002366] transition pb-1">Open Account</a>
+                <a href="contact.html" class="hover:text-[#002366] transition pb-1">Contact & FAQ</a>
+            </nav>
+
+            <div class="hidden lg:block">
+                <a href="open-account.html" class="bg-[#002366] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-blue-900 transition shadow-sm">Get Started</a>
+            </div>
+
+            <!-- Hamburger Button (Mobile & Tablet) -->
+            <div class="flex items-center lg:hidden">
+                <button id="menu-toggle-button" class="p-2 rounded-md text-gray-600 hover:text-[#002366] focus:outline-none transition">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-drawer" class="hidden lg:hidden border-t border-gray-100 bg-white shadow-xl">
+        <div class="px-4 pt-3 pb-6 space-y-2">
+            <a href="index.html" class="block px-4 py-2.5 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Home</a>
+            <a href="index.html" class="block px-4 py-2.5 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">About</a>
+            <a href="index.html" class="block px-4 py-2.5 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Services</a>
+            <a href="loan.html" class="block px-4 py-2.5 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Loan Application</a>
+            <a href="open-account.html" class="block px-4 py-2.5 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Open Account</a>
+            <a href="contact.html" class="block px-4 py-2.5 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Contact & FAQ</a>
+        </div>
+    </div>
+</header>
+</body>
+</html>
